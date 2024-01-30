@@ -7,11 +7,9 @@ import lombok.Setter;
 import java.util.HashMap;
 import java.util.Map;
 
-@Data
 public class SuggestionsDatabase {
     private Map<String,Integer> wordMap = new HashMap<>();
 
-    /*
     public Map<String, Integer> getWordMap() {
         if (wordMap == null) {
             wordMap = new HashMap<String, Integer>();
@@ -22,5 +20,5 @@ public class SuggestionsDatabase {
 
     public void setWordMap(Map<String, Integer> wordMap) {
         this.wordMap = wordMap;
-    }*/
+    }
 }
