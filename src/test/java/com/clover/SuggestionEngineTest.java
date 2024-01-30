@@ -149,3 +149,5 @@ public class SuggestionEngineTest {
         Assertions.assertTrue(suggestionEngine.generateSuggestions("tes").contains("test"));
     }
 }
+
+//test CI
