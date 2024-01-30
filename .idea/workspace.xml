@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0c3c7ee8-84d3-4885-97a7-986303bc4c02" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="sqcjarkl" />
+  </component>
+  <component name="ProjectId" id="2beTAmm6phI1j3spiqSDrHRiIP3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/com/clover" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.clover" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SuggestionEngineTest">
+    <configuration name="SuggestionEngineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QAP1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.clover.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.clover" />
+      <option name="MAIN_CLASS_NAME" value="com.clover.SuggestionEngineTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SuggestionEngineTest.testGenerateSuggestions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QAP1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.clover.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.clover" />
+      <option name="MAIN_CLASS_NAME" value="com.clover.SuggestionEngineTest" />
+      <option name="METHOD_NAME" value="testGenerateSuggestions" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SuggestionEngineTest.testNonexistentWord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QAP1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.clover.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.clover" />
+      <option name="MAIN_CLASS_NAME" value="com.clover.SuggestionEngineTest" />
+      <option name="METHOD_NAME" value="testNonexistentWord" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SuggestionEngineTest.testSuggestionsOrdering" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QAP1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.clover.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.clover" />
+      <option name="MAIN_CLASS_NAME" value="com.clover.SuggestionEngineTest" />
+      <option name="METHOD_NAME" value="testSuggestionsOrdering" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SuggestionEngineTest.testWordWithMultiplePossibleCorrections" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QAP1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.clover.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.clover" />
+      <option name="MAIN_CLASS_NAME" value="com.clover.SuggestionEngineTest" />
+      <option name="METHOD_NAME" value="testWordWithMultiplePossibleCorrections" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SuggestionEngineTest" />
+        <item itemvalue="JUnit.SuggestionEngineTest.testNonexistentWord" />
+        <item itemvalue="JUnit.SuggestionEngineTest.testSuggestionsOrdering" />
+        <item itemvalue="JUnit.SuggestionEngineTest.testWordWithMultiplePossibleCorrections" />
+        <item itemvalue="JUnit.SuggestionEngineTest.testGenerateSuggestions" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0c3c7ee8-84d3-4885-97a7-986303bc4c02" name="Changes" comment="" />
+      <created>1706574406410</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1706574406410</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
