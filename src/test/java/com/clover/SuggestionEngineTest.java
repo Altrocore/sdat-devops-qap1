@@ -1,11 +1,13 @@
 package com.clover;
 
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Mockito;
+import org.mockito.MockitoAnnotations;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 import java.nio.file.Paths;
@@ -22,6 +24,12 @@ public class SuggestionEngineTest {
     @Mock
     private SuggestionsDatabase mockSuggestionDB;
     private boolean testInstanceSame = false;
+
+    @BeforeEach
+    public void setUp() {
+        MockitoAnnotations.openMocks(this);
+    }
+
 
     @Test
     public void testEmptyInput() {
@@ -40,6 +48,12 @@ public class SuggestionEngineTest {
         Map<String, Integer> wordMapForTest = new HashMap<>();
         wordMapForTest.put("hello", 1);
         when(mockSuggestionDB.getWordMap()).thenReturn(wordMapForTest);
+
+        if (mockSuggestionDB == null) {
+            System.out.println("mockSuggestionDB is null!");
+        } else if (mockSuggestionDB.getWordMap() == null) {
+            System.out.println("getWordMap() returned null!");
+        }
 
         String result = suggestionEngine.generateSuggestions("@£$%");
         Assertions.assertTrue(result.isEmpty(), "Input with unusual characters => no suggestions due to no matches.");
